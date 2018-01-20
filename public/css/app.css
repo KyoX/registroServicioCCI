@@ -1,0 +1,29 @@
+a {
+    color: #4f4f4f;
+}
+a:hover, a:active {
+    color: #1c1c1c;
+}
+footer.blockquote-footer {
+    font-weight: 700;
+    color: #1c1c1c;
+    text-shadow: 0 0 3px #fff, 0 0 5px #fff;
+}
+.header {
+    width: 100%;
+    height: 28vh;
+}
+.dropdown-menu.show[acciones="nav"] {
+    left: -94px;
+}
+i.material-icons {
+    top: 6px;
+    position: relative;
+}
+.container.ingreso_datos {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+button.btn.btn-dark {
+    float: right;
+}

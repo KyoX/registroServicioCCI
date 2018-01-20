@@ -1,0 +1,23 @@
+.contenedor_ministerio {
+    width: 40vh;
+    height: 40vh;
+    display: inline-flex;
+    margin: 5vh;
+    background-color: #0c5460;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.ministerio_data {
+    margin: auto;
+    text-align: center;
+}
+.contenedor {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+input#ministerio_id {
+    display: none;
+}
+
