@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Servidor extends Model
 {
+    protected $fillable = ['nombre','correo','telefono'];
+
     public function equipos(){
         return $this->belongsTo(equipo::class);
     }

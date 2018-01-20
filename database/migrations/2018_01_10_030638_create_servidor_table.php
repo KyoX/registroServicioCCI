@@ -13,7 +13,7 @@ class CreateServidorTable extends Migration
      */
     public function up()
     {
-        Schema::create('servidores', function (Blueprint $table) {
+        Schema::create('servidors', function (Blueprint $table) {
             $table->increments('servidor_id');
             $table->string('nombre');
             $table->string('correo')->nullable();
@@ -30,6 +30,6 @@ class CreateServidorTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('servidor');
+        Schema::dropIfExists('servidors');
     }
 }

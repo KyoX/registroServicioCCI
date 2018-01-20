@@ -13,7 +13,7 @@ class CreateHistorialservidorsTable extends Migration
      */
     public function up()
     {
-        Schema::create('historialservidores', function (Blueprint $table) {
+        Schema::create('historialservidors', function (Blueprint $table) {
             $table->increments('historialservicio_id');
             $table->integer('servidor_id');
             $table->integer('tipoasistencia_id');

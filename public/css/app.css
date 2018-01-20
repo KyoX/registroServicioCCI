@@ -27,3 +27,12 @@ i.material-icons {
 button.btn.btn-dark {
     float: right;
 }
+button.nueva_data {
+    margin: 20px 0;
+}
+table.table.table-hover {
+    margin-bottom: 60px;
+}
+tr.data{
+    cursor:pointer;
+}

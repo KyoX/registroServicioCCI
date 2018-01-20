@@ -15,7 +15,7 @@
                         <input type="text" class="form-control" id="ministerio_id" aria-describedby="ministerio id" placeholder="ministerio_id"
                                 name="ministerio_id" value="{{$ministerio->ministerio_id}}">
 
-                        <label for="correo">Nombre Ministerio</label>
+                        <label for="nombre_ministerio">Nombre Ministerio</label>
 
                         <input type="text" class="form-control" id="nombre_ministerio" aria-describedby="Nombre Ministerio" placeholder="Nombre Ministerio"
                                 name="nombre_ministerio" value="{{$ministerio->nombre_ministerio}}" required>
