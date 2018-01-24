@@ -33,6 +33,9 @@ button.nueva_data {
 table.table.table-hover {
     margin-bottom: 60px;
 }
+th, td {
+    text-align: center;
+}
 tr.data{
     cursor:pointer;
 }

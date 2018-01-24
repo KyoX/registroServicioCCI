@@ -30,7 +30,6 @@
                 @endisset
             </tbody>
         </table>
-
     </div>
 @endsection
 

@@ -1,10 +1,3 @@
-function getRandomColor(max,min) {
-    var red = Math.floor(Math.random()* (max - min) + min);
-    var green = Math.floor(Math.random()* (max - min) + min);
-    var blue = Math.floor(Math.random()* (max - min) + min);
-    return 'rgba('+red+','+green+','+blue+',1)';
-}
-
 $(document).ready(function() {
     $('.contenedor_ministerio').each(function(){
         var color = getRandomColor(124,0);
