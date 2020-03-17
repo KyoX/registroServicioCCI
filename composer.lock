@@ -1674,9 +1674,9 @@
             "require": {
                 "php": "^5.5.9|>=7.0.8",
                 "psr/log": "~1.0",
-                "symfony/debug": "~2.8|~3.0|~4.0",
-                "symfony/event-dispatcher": "~2.8|~3.0|~4.0",
-                "symfony/http-foundation": "^3.3.11|~4.0"
+                "symfony/debug": "~3.0|~4.0",
+                "symfony/event-dispatcher": "~3.0|~4.0",
+                "symfony/http-foundation": "^4.4|~5.1"
             },
             "conflict": {
                 "symfony/config": "<2.8",
@@ -1941,7 +1941,7 @@
                 "symfony/config": "~2.8|~3.0|~4.0",
                 "symfony/dependency-injection": "~3.3|~4.0",
                 "symfony/expression-language": "~2.8|~3.0|~4.0",
-                "symfony/http-foundation": "~2.8|~3.0|~4.0",
+                "symfony/http-foundation": "~3.0|~4.0|~5.1",
                 "symfony/yaml": "~3.4|~4.0"
             },
             "suggest": {
